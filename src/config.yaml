@@ -1,0 +1,16 @@
+credentials:
+  usernames:
+    diegopmayer:
+      email: diegopmayer@gmail.com
+      logged_in: False
+      name: Diego Poletto Mayer
+      password: Vnt794613
+    suporte:
+      email: diegopmayer@gmail.com
+      logged_in: False
+      name: Analistas de Documentos
+      password: supun.369
+cookie:
+  expiry_days: 1
+  key: some_signature_key
+  name: some_cookie_name
