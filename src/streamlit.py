@@ -12,13 +12,6 @@ import shutil
 with open('src/config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
-# # Configurar a sessão do boto3 com as credenciais carregadas
-# boto3_session = boto3.Session(
-#     aws_access_key_id=config['awscredentials']['aws_access_key_id'],
-#     aws_secret_access_key=config['awscredentials']['aws_secret_access_key'],
-#     region_name=config['awscredentials']['region']
-# )
-
 aws_access_key_id = st.secrets["awscredentials"]["aws_access_key_id"]
 aws_secret_access_key = st.secrets["awscredentials"]["aws_secret_access_key"]
 region_name = st.secrets["awscredentials"]["region"]

@@ -8,8 +8,18 @@ credentials:
     suporte:
       email: diegopmayer@gmail.com
       logged_in: False
-      name: Analistas de Documentos
+      name: Suporte
       password: supun.369
+    jessica:
+      email: diegopmayer@gmail.com
+      logged_in: False
+      name: Jéssica Analise Docs
+      password: jedoc.936
+    oscar:
+      email: diegopmayer@gmail.com
+      logged_in: False
+      name: Oscara tk
+      password: osctk.693
 cookie:
   expiry_days: 1
   key: some_signature_key
