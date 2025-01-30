@@ -20,6 +20,16 @@ credentials:
       logged_in: False
       name: Oscara tk
       password: osctk.693
+    lucas:
+      email: supervisaosuportesistemas@grupounus.com.br
+      logged_in: False
+      name: Lucas Sistemas
+      password: lcs.693
+    eduardo:
+      email: gerencia.sistemas@grupounus.com.br
+      logged_in: False
+      name: Duda Sistemas
+      password: ddz.739
 cookie:
   expiry_days: 1
   key: some_signature_key
